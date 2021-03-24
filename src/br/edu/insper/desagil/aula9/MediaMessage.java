@@ -9,7 +9,7 @@ public abstract class MediaMessage extends Message {
 	}
 	
 	public String getSrc() {
-		return src;
+		return this.src;
 	}
 
 	@Override

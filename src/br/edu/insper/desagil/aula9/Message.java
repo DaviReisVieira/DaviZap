@@ -18,6 +18,6 @@ public class Message {
 	}
 
 	public String render() {
-		return "<p><strong>" + this.user + ":</strong> " + this.text + "</p>";
+		return "<p><strong>" + this.user + ":</strong>" + this.text + "</p>";
 	}
 }

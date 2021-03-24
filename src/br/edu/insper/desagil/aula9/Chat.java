@@ -18,7 +18,7 @@ public class Chat {
 		String renderedString = "<main>";
 		
 		for (Message message: this.messages) {
-			renderedString+= message;
+			renderedString+= message.render();
 		}
 		
 		return renderedString + "</main>";
